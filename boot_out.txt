@@ -1,2 +1,3 @@
 Adafruit CircuitPython 8.0.0-alpha.1 on 2022-06-09; Raspberry Pi Pico with rp2040
 Board ID:raspberry_pi_pico
+boot.py output:
