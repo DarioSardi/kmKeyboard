@@ -46,7 +46,7 @@ class BaseEncoder:
     def update_state(self):
         # Rotation events
         new_state = (self.pin_a.get_value(), self.pin_b.get_value())
-
+        # print(self.pin_a.get_value(),self.pin_b.get_value())
         if new_state != self._state:
             # encoder moved
             self._movement += 1
@@ -107,7 +107,7 @@ class BaseEncoder:
     # return knob velocity as milliseconds between position changes (detents)
     # for backwards compatibility
     def vel_report(self):
-        # print(self._velocity)
+        print(self._velocity)
         return self._velocity
 
 
